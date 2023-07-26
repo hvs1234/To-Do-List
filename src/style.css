@@ -1,0 +1,58 @@
+body
+{
+    background: linear-gradient(to right,rgb(35, 9, 53),rgb(52, 23, 99),rgb(70, 25, 155));
+}
+
+.main
+{
+    border: 0px solid yellow; height: auto; margin: 10em 10em; border-radius: 20px; background: linear-gradient(to right,rgb(16, 75, 48),rgb(24, 129, 82),rgb(25, 199, 120));
+}
+.image
+{
+    display: flex; flex-direction: column; justify-content: center; align-items: center; font-family: 'Dosis' , sans-serif; color: white; font-size: 1.5em; letter-spacing: 5px; 
+    text-shadow: 1px 1px 2px rgb(51, 255, 0);
+}
+.image img
+{
+    height: 30%; width: 10%;
+}
+.input-control
+{
+    display: flex; margin: 2em 40em;
+}
+.input-control input
+{
+    margin-bottom: 40px; border-radius: 1em; padding: 10px 20px; font-weight: bold; font-family: 'Dosis' , sans-serif; letter-spacing: 2px; position: relative; left: 20px; font-size: 1em; width: 50em; 
+    outline: 0;  
+}
+.todo-btn
+{
+    margin-left: 40px; padding: 0px 0px; height: 40px; border:0px; background: transparent; position: relative; right: 50px; color: black; font-size: 1.5em; 
+} .todo-btn:hover{color: darkred; cursor: pointer;}
+
+.del
+{
+    display: flex; justify-content: center; position: relative; left: 30px;
+}
+.chk
+{
+    padding-top: auto; height: 50px; padding-left: 10px; font-size: 1em; font-family: 'Dosis' , sans-serif; font-weight: bold; letter-spacing: 2px; border-radius: 10px; outline: 0; background-color: lightgreen; box-shadow: 0px 2px 2px rgb(0, 195, 255); width: 200px; text-align: center; border: 0; position: relative; bottom: 40px; right: 30px;
+} .chk:hover{cursor: pointer; background-color: lightskyblue;}
+
+.show
+{
+    position: relative; bottom: 70px; height: auto; padding: 20px 0px;
+}
+.items
+{
+    display: flex; border: 0 solid cyan; margin:10px 39em; justify-content: center; color: yellow;
+    border-radius: 10px; background-color: rgb(15, 15, 83); height: auto; width: 20em;
+} .items:hover{background-color: rgb(41, 8, 71);}
+.items h3
+{
+    margin-right: 80px;
+}
+.edit , .delete
+{
+    border: 0; background: transparent; color: rgb(68, 7, 7); font-size: 1em; font-family: 'Dosis' , sans-serif; font-weight: bold; color: white;
+} .delete:hover{color: darkslategrey; cursor: pointer;} .edit:hover{color: darkslategrey; cursor: pointer;} 
